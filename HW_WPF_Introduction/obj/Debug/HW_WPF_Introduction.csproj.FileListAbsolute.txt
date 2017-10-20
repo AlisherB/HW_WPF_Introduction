@@ -1,0 +1,14 @@
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\bin\Debug\HW_WPF_Introduction.exe.config
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\bin\Debug\HW_WPF_Introduction.exe
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\bin\Debug\HW_WPF_Introduction.pdb
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\MainWindow.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\App.g.cs
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction_MarkupCompile.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction_MarkupCompile.lref
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\MainWindow.baml
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.g.resources
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.Properties.Resources.resources
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.csproj.GenerateResource.Cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.csproj.CoreCompileInputs.cache
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.exe
+C:\Users\Alisher\OneDrive\Documents\Академия Шаг\WPF\HW_WPF_Introduction\HW_WPF_Introduction\obj\Debug\HW_WPF_Introduction.pdb

@@ -1,0 +1,25 @@
+﻿<Window x:Class="HW_WPF_Introduction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_Introduction"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="430" Width="300">
+    <Grid x:Name="mainGrid" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}">
+        <TextBox x:Name="userTextBox" Margin="77,48,77,312" TextWrapping="Wrap" VerticalContentAlignment="Center" FontFamily="Century Gothic" FontSize="18"/>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Left" Margin="77,107,0,0" VerticalAlignment="Top" Width="138" Height="37" Cursor="Hand" FontFamily="Century Gothic" FontSize="18" Click="SignUpButton_Click"/>
+        <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Left" Margin="77,323,0,0" VerticalAlignment="Top" Width="138" Height="37" FontFamily="Century Gothic" FontSize="18" Click="SignInButton_Click"/>
+        <TextBlock x:Name="textBlockUser" Margin="77,23,0,0" TextWrapping="Wrap" Text="User name" FontFamily="Century Gothic" FontSize="16" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Slider Name="sliderRed" HorizontalAlignment="Left" Margin="20,170,0,0" VerticalAlignment="Top" Width="229" Minimum="0" Maximum="255" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="Slider_ValueChanged"/>
+        <Slider Name="sliderGreen" HorizontalAlignment="Left" Margin="20,218,0,0" VerticalAlignment="Top" Width="229" Minimum="0" Maximum="255" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="Slider_ValueChanged"/>
+        <Slider Name="sliderBlue" HorizontalAlignment="Left" Margin="20,266,0,0" VerticalAlignment="Top" Width="229" Minimum="0" Maximum="255" IsSnapToTickEnabled="True" TickFrequency="1" ValueChanged="Slider_ValueChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,172,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Width="12"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,218,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" Width="12"/>
+        <TextBlock HorizontalAlignment="Left" Margin="7,266,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" Width="12" RenderTransformOrigin="0.75,0.562"/>
+        <Label HorizontalAlignment="Left" Margin="249,166,0,0" VerticalAlignment="Top" Content="{Binding ElementName=sliderRed, Path=Value}"/>
+        <Label HorizontalAlignment="Left" Margin="249,214,0,0" VerticalAlignment="Top" Content="{Binding ElementName=sliderGreen, Path=Value}"/>
+        <Label HorizontalAlignment="Left" Margin="249,262,0,0" VerticalAlignment="Top" Content="{Binding ElementName=sliderBlue, Path=Value}"/>
+
+    </Grid>
+</Window>
